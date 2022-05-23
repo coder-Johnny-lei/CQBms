@@ -1,13 +1,13 @@
-package com.sdjz.cqbms;
+package com.sdjz.admin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CqBmsApplication {
+public class CqBmsAdminApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CqBmsApplication.class, args);
+        SpringApplication.run(CqBmsAdminApplication.class, args);
     }
 
 }

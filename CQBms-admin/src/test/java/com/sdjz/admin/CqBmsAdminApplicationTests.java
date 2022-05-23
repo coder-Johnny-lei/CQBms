@@ -1,10 +1,10 @@
-package com.sdjz.cqbms;
+package com.sdjz.admin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CqBmsApplicationTests {
+class CqBmsAdminApplicationTests {
 
     @Test
     void contextLoads() {

@@ -36,7 +36,6 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter
         if (StringUtils.isNotNull(loginUser) && StringUtils.isNull(SecurityUtils.getAuthentication()))
         {
             String getContextPath = request.getRequestURI();
-
             if(!getContextPath.equals("/notification/unreadNum")){
                 tokenService.verifyToken(loginUser);
             }
