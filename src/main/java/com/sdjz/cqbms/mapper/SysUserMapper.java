@@ -46,4 +46,6 @@ public interface SysUserMapper {
      * @return update count
      */
     int updateByPrimaryKey(SysUser record);
+
+    public SysUser selectUserByUserName(String userName);
 }

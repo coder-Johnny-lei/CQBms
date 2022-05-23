@@ -112,4 +112,9 @@
       update_time = #{updateTime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=VARCHAR}
   </update>
+
+  <select id="selectUserByUserName" resultMap="BaseResultMap">
+    select <include refid="Base_Column_List"/> from sys_user where username = #{userName}
+        and delete_flag = 0
+  </select>
 </mapper>

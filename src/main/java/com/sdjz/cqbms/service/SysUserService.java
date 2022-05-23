@@ -16,4 +16,6 @@ public interface SysUserService{
 
     int updateByPrimaryKey(SysUser record);
 
+    SysUser selectUserByName(String username);
+
 }
